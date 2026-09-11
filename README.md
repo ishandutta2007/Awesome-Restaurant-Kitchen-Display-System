@@ -1,12 +1,17 @@
-# Awesome-Restaurant-Kitchen-Display-System
+# 🍳 Awesome Restaurant Kitchen Display System (KDS)
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Restaurant-Kitchen-Display-System-New/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Restaurant-Kitchen-Display-System-New?style=flat-square&logo=github&color=gold" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Restaurant-Kitchen-Display-System-New/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Restaurant-Kitchen-Display-System-New?style=flat-square&logo=github&color=blue" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Restaurant-Kitchen-Display-System-New/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Restaurant-Kitchen-Display-System-New?style=flat-square" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Restaurant-Kitchen-Display-System-New/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 # 🍳 Top Restaurant Kitchen Display Systems (KDS) & Open-Source Alternatives
 
-
-
-> A curated list of **restaurant Kitchen Display Systems (KDS), digital kitchen management platforms, POS-integrated kitchen software and open-source/self-hostable KDS alternatives**.
-
-
+> 🎯 A comprehensive, SEO-optimized curated directory of **restaurant Kitchen Display Systems (KDS), digital kitchen management platforms, POS-integrated kitchen display software, cloud order dispatchers, and open-source/self-hostable KDS alternatives** for modern commercial restaurants, ghost kitchens, quick-service restaurants (QSR), cloud kitchens, and cafes.
 
 A **Kitchen Display System (KDS)** replaces paper kitchen tickets with digital screens that receive orders from a restaurant POS, online ordering system, kiosk or delivery channel and guide kitchen staff through preparation.
 
@@ -14,39 +19,24 @@ A **Kitchen Display System (KDS)** replaces paper kitchen tickets with digital s
 
 Modern KDS platforms typically provide:
 
+* ⚡ **Real-time order routing** (station-based, line-cook & expo distribution)
+* 🍳 **Kitchen stations** (grill, fryer, salad, bakery, drink & prep lines)
+* 🎫 **Ticket & order management** (digital kitchen tickets replacing impact printers)
+* 🥗 **Item-level preparation status** (multi-cook synchronized item bumping)
+* ⏱️ **Order timers & SLA alerts** (color-coded aging alerts for delayed tickets)
+* 🎨 **Color-coded tickets & priorities** (dine-in, takeout, delivery, VIP)
+* 📝 **Modifiers & special instructions** (allergy flags, custom preparation notes)
+* 🔥 **Course firing** (appetizers, entrees, desserts sequenced pacing)
+* 🛎️ **Expediter screens** (consolidation point for expo packers & runners)
+* 🔄 **Bump bar & touchscreen workflows** (hardware bump bars & multi-touch panels)
+* 🔀 **Multi-station split routing** (routing burger to grill, fries to fryer, shake to bar)
+* 📊 **Kitchen performance analytics** (cook times, bump speed, station throughput)
+* 💳 **POS integration** (bidirectional POS sync with live order state changes)
+* 🛵 **Online ordering & delivery aggregation** (DoorDash, UberEats, Deliverect, Otter)
+* 📴 **Offline/local-network resilience** (LAN mesh, local SQLite/WebSocket fallback)
+* 🖨️ **Kitchen printer integration** (ESC/POS thermal, impact printer & sticker printing)
 
-
-* Real-time order routing
-
-* Kitchen stations
-
-* Ticket management
-
-* Item-level preparation status
-
-* Order timers
-
-* Color-coded tickets
-
-* Modifiers and special instructions
-
-* Course firing
-
-* Expediter screens
-
-* Bump / recall workflows
-
-* Multi-station routing
-
-* Kitchen performance analytics
-
-* POS integration
-
-* Online-order integration
-
-* Offline/local-network resilience
-
-* Kitchen printer integration
+> 🏷️ **Keywords / Tags:** `kitchen-display-system`, `kds`, `restaurant-pos`, `restaurant-technology`, `digital-kitchen`, `open-source-pos`, `foodtech`, `cloud-kitchen`, `ghost-kitchen`, `order-management`, `kitchen-automation`, `websocket`, `escpos`.
 
 
 
@@ -123,6 +113,8 @@ This repository focuses primarily on **open-source and self-hostable alternative
 * [🤝 Contributing](#-contributing)
 
 * [⚠️ Disclaimer](#️-disclaimer)
+
+* [📈 Star History](#-star-history)
 
 
 
@@ -3384,10 +3376,12 @@ If you are interested in:
 
 consider giving this repository a ⭐ **Star** and contributing new projects.
 
-
-
 ---
 
+## 📈 Star History
 
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Restaurant-Kitchen-Display-System-New&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Restaurant-Kitchen-Display-System-New&type=date&legend=top-left)
+
+---
 
 **Last updated: September 2026**
