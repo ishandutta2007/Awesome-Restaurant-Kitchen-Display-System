@@ -138,45 +138,26 @@ Commercial KDS platforms generally integrate directly with a restaurant POS and 
 
 
 
-| Platform                                                                                                      | Company               | Primary Focus                     | Key Capabilities                                                                    |
-
-| ------------------------------------------------------------------------------------------------------------- | --------------------- | --------------------------------- | ----------------------------------------------------------------------------------- |
-
-| [Toast KDS](https://pos.toasttab.com/hardware/kitchen-display-system)                                         | Toast                 | Integrated restaurant KDS         | Real-time tickets, prep stations, expediter workflows, timers and kitchen reporting |
-
-| [Square KDS](https://squareup.com/us/en/hardware/kitchen-display-system)                                      | Block / Square        | POS-integrated KDS                | Digital tickets, order tracking and kitchen workflows                               |
-
-| [Lightspeed KDS](https://www.lightspeedhq.com/)                                                               | Lightspeed            | Restaurant KDS                    | Digital tickets, kitchen routing and POS integration                                |
-
-| [TouchBistro KDS](https://www.touchbistro.com/)                                                               | TouchBistro           | Restaurant KDS                    | Kitchen workflow and POS integration                                                |
-
-| [Oracle MICROS KDS](https://www.oracle.com/food-beverage/restaurant-pos-systems/kds-kitchen-display-systems/) | Oracle                | Enterprise restaurant KDS         | Station routing, timed preparation, real-time POS updates and kitchen workflows     |
-
-| [Fresh KDS](https://www.fresh.technology/)                                                                    | Fresh Technology      | Standalone / integrated KDS       | POS integrations, timers, modifiers, item completion and tablet-based KDS           |
-
-| [Syrve KDS](https://syrve.com/)                                                                               | Syrve                 | Restaurant operations             | KDS, restaurant POS, inventory and operational management                           |
-
-| [Revel KDS](https://revelsystems.com/)                                                                        | Revel Systems         | Restaurant POS + KDS              | Kitchen workflow and POS integration                                                |
-
-| [SpotOn KDS](https://www.spoton.com/)                                                                         | SpotOn                | Restaurant operations             | POS-connected kitchen workflows                                                     |
-
-| [CAKE KDS](https://trycake.com/)                                                                              | PAR Technology / CAKE | Restaurant POS + KDS              | Kitchen order management and restaurant operations                                  |
-
-| [Clover KDS](https://www.clover.com/)                                                                         | Fiserv                | Restaurant POS ecosystem          | POS and kitchen workflow integrations                                               |
-
-| [Epson TrueOrder](https://epson.com/usa/kitchen-display-systems)                                              | Epson                 | Kitchen display hardware/software | Digital kitchen tickets and restaurant workflows                                    |
-
-| [NCR Voyix](https://www.ncrvoyix.com/)                                                                        | NCR Voyix             | Enterprise restaurant technology  | POS, kitchen and restaurant operations                                              |
-
-| [PAR Brink](https://partech.com/)                                                                             | PAR Technology        | Enterprise restaurant technology  | POS, kitchen and restaurant operations                                              |
-
-| [Qu KDS](https://www.qubeyond.com/)                                                                           | Qu                    | QSR technology                    | POS, kitchen and digital restaurant workflows                                       |
-
-| [Deliverect KDS](https://www.deliverect.com/)                                                                 | Deliverect            | Digital ordering                  | Aggregated delivery/order workflows and kitchen operations                          |
-
-| [Otter](https://www.tryotter.com/)                                                                            | Otter                 | Restaurant order management       | Order aggregation, POS integrations and kitchen workflow                            |
-
-| [Chowly](https://chowly.com/)                                                                                 | Chowly                | Restaurant integrations           | Online-order aggregation and POS/KDS workflows                                      |
+| Platform | Company | Primary Focus | Key Capabilities | Pricing | Free Tier Limits |
+| --- | --- | --- | --- | --- | --- |
+| [Toast KDS](https://pos.toasttab.com/hardware/kitchen-display-system) | Toast | Integrated restaurant KDS | Real-time tickets, prep stations, expediter workflows, timers and kitchen reporting | Starting at $25/screen/month (Hardware from $499; POS core starting at $0/month via pay-as-you-go) | No free tier or trial (Live demo available; 0 days free trial) |
+| [Square KDS](https://squareup.com/us/en/hardware/kitchen-display-system) | Block / Square | POS-integrated KDS | Digital tickets, order tracking and kitchen workflows | Starting at $20/device/month (Requires Square for Restaurants; free standard POS app available) | 30-day free trial (Full KDS features with unlimited tickets for 30 days) |
+| [Lightspeed KDS](https://www.lightspeedhq.com/) | Lightspeed | Restaurant KDS | Digital tickets, kitchen routing and POS integration | Starting at $30/screen/month (Requires Lightspeed Restaurant POS base plan starting at $69/month) | 30-day free trial (Full access to KDS routing and display features for 30 days) |
+| [TouchBistro KDS](https://www.touchbistro.com/) | TouchBistro | Restaurant KDS | Kitchen workflow and POS integration | Starting at $19/screen/month (Base TouchBistro POS subscription starting at $69/month) | No free tier or trial (Guided product demo only; 0 days free trial) |
+| [Oracle MICROS KDS](https://www.oracle.com/food-beverage/restaurant-pos-systems/kds-kitchen-display-systems/) | Oracle | Enterprise restaurant KDS | Station routing, timed preparation, real-time POS updates and kitchen workflows | Starting at $55/workstation/month (Oracle Simphony Essentials tier; enterprise hardware quoted separately) | No free tier or trial (Interactive virtual product tour and demo only; 0 days free trial) |
+| [Fresh KDS](https://www.fresh.technology/) | Fresh Technology | Standalone / integrated KDS | POS integrations, timers, modifiers, item completion and tablet-based KDS | Starting at $20/screen/month (Billed monthly; supports BYO iPad/Android hardware) | 7-day free trial (Full platform functionality without credit card requirement for 7 days) |
+| [Syrve KDS](https://syrve.com/) | Syrve | Restaurant operations | KDS, restaurant POS, inventory and operational management | Starting at €39/terminal/month (approx. £49/month or 250 AED/month depending on region) | No free tier or trial (1-on-1 guided live demo only; 0 days free trial) |
+| [Revel KDS](https://revelsystems.com/) | Revel Systems | Restaurant POS + KDS | Kitchen workflow and POS integration | Starting at $99/terminal/month (Base POS plan billed annually; KDS module quoted as add-on) | No free tier or trial (Live consultation and system demo only; 0 days free trial) |
+| [SpotOn KDS](https://www.spoton.com/) | SpotOn | Restaurant operations | POS-connected kitchen workflows | Starting at $20/station/month ($500 one-time hardware fee; base POS starting at $99/month) | No free tier or trial (Custom demonstration only; 0 days free trial) |
+| [CAKE KDS](https://trycake.com/) | PAR Technology / CAKE | Restaurant POS + KDS | Kitchen order management and restaurant operations | Starting at $69/month (CAKE POS Essentials tier; KDS hardware bundle quoted per station) | No free tier or trial (Tailored sales demo only; 0 days free trial) |
+| [Clover KDS](https://www.clover.com/) | Fiserv | Restaurant POS ecosystem | POS and kitchen workflow integrations | Starting at $25/device/month (Official 14" hardware at $799; or free 3rd-party Simple KDS app on BYO tablet) | Free-forever tier available via third-party Simple KDS on Clover App Market (limited to basic BYO Android tablet ticket display); official Clover KDS has no free trial (0 days) |
+| [Epson TrueOrder](https://epson.com/usa/kitchen-display-systems) | Epson | Kitchen display hardware/software | Digital kitchen tickets and restaurant workflows | $0/month recurring (One-time perpetual software license bundled with hardware purchase, approx. $500–$800/station) | No free trial (Zero monthly recurring fees; requires purchase of pre-licensed hardware station) |
+| [NCR Voyix](https://www.ncrvoyix.com/) | NCR Voyix | Enterprise restaurant technology | POS, kitchen and restaurant operations | Starting at $89/month (Aloha Cloud Starter tier including kitchen routing; terminal leasing options available) | No free tier or trial (Sales consultation and guided product demo only; 0 days free trial) |
+| [PAR Brink](https://partech.com/) | PAR Technology | Enterprise restaurant technology | POS, kitchen and restaurant operations | Starting at $90/terminal/month (Monthly SaaS model for enterprise restaurant chains) | No free tier or trial (Guided product demo only; 0 days free trial) |
+| [Qu KDS](https://www.qubeyond.com/) | Qu | QSR technology | POS, kitchen and digital restaurant workflows | Starting at $100/terminal/month (Enterprise commerce platform designed for multi-unit brands with 20+ stores) | No free tier or trial (Enterprise architecture assessment and demo only; 0 days free trial) |
+| [Deliverect KDS](https://www.deliverect.com/) | Deliverect | Digital ordering | Aggregated delivery/order workflows and kitchen operations | Starting at $69/month (Deliverect core ordering aggregation tier starting at 350 orders/month; KDS module available as add-on) | No free tier or trial (1-on-1 guided product demo only; 0 days free trial) |
+| [Otter](https://www.tryotter.com/) | Otter | Restaurant order management | Order aggregation, POS integrations and kitchen workflow | Starting at $15/device/month for KDS add-on (Base restaurant order aggregation package starting at $79/month) | No free tier or trial (Free mobile management app Otter Go available for active subscribers; 0 days free trial) |
+| [Chowly](https://chowly.com/) | Chowly | Restaurant integrations | Online-order aggregation and POS/KDS workflows | Starting at $99/month (Month-to-month subscription with no long-term contracts; includes order integration) | Promotional 90-day free trial on first 3 months (Limited to promotional signups with 6-month growth guarantee; otherwise 0 days standard trial) |
 
 
 
