@@ -295,17 +295,17 @@ The project describes itself as an open-source KDS designed to work with restaur
 
 
 
-| Project                                                  | Focus                             | License        |
-
-| -------------------------------------------------------- | --------------------------------- | -------------- |
-
-| [OpenKDS](https://github.com/BenClementt/OpenKDS)        | Dedicated restaurant KDS          | GPL-3.0        |
-
-| [KDS App](https://github.com/zhameersheraz/kds-app)      | POS + real-time KDS               | See repository |
-
-| [kitchenOS](https://github.com/rajeshselvam02/kitchenOS) | KDS + order ingestion + inventory | See repository |
-
-| [KDS-1](https://github.com/richi010384/KDS-1)            | Kitchen Display System            | See repository |
+| Project | Focus | License |
+| :--- | :--- | :--- |
+| [URY Mosaic](https://github.com/ury-erp/mosaic) [![Stars](https://img.shields.io/github/stars/ury-erp/mosaic?style=social&color=white)](https://github.com/ury-erp/mosaic/stargazers) | Kitchen display system for order management & KOT printing | GPL-3.0 |
+| [KDS App](https://github.com/zhameersheraz/kds-app) [![Stars](https://img.shields.io/github/stars/zhameersheraz/kds-app?style=social&color=white)](https://github.com/zhameersheraz/kds-app/stargazers) | POS + real-time KDS | MIT |
+| [CampusBites](https://github.com/Pxrvn07/CampusBites) [![Stars](https://img.shields.io/github/stars/Pxrvn07/CampusBites?style=social&color=white)](https://github.com/Pxrvn07/CampusBites/stargazers) | Smart canteen ordering + live Kitchen Display System | MIT |
+| [FoodStreams](https://github.com/calvincchong/FoodStreams) [![Stars](https://img.shields.io/github/stars/calvincchong/FoodStreams?style=social&color=white)](https://github.com/calvincchong/FoodStreams/stargazers) | Restaurant Kitchen Display System MVP | MIT |
+| [OpenKDS](https://github.com/BenClementt/OpenKDS) [![Stars](https://img.shields.io/github/stars/BenClementt/OpenKDS?style=social&color=white)](https://github.com/BenClementt/OpenKDS/stargazers) | Dedicated restaurant KDS | GPL-3.0 |
+| [kds-app](https://github.com/DavidVidaurre/kds-app) [![Stars](https://img.shields.io/github/stars/DavidVidaurre/kds-app?style=social&color=white)](https://github.com/DavidVidaurre/kds-app/stargazers) | React & Node.js Kitchen Display System | MIT |
+| [Kitchen Display System](https://github.com/deeputkarsh/Kitchen-Display-System) [![Stars](https://img.shields.io/github/stars/deeputkarsh/Kitchen-Display-System?style=social&color=white)](https://github.com/deeputkarsh/Kitchen-Display-System/stargazers) | Node.js KDS order management | MIT |
+| [KDS-1](https://github.com/richi010384/KDS-1) [![Stars](https://img.shields.io/github/stars/richi010384/KDS-1?style=social&color=white)](https://github.com/richi010384/KDS-1/stargazers) | Kitchen Display System | MIT |
+| [kitchenOS](https://github.com/rajeshselvam02/kitchenOS) [![Stars](https://img.shields.io/github/stars/rajeshselvam02/kitchenOS?style=social&color=white)](https://github.com/rajeshselvam02/kitchenOS/stargazers) | KDS + order ingestion + inventory | MIT |
 
 
 
@@ -425,25 +425,18 @@ Many of the most useful open-source KDS alternatives are actually complete resta
 
 
 
-| Project                                                                     | POS |        KDS       | Tables | Inventory | Ordering |
-
-| --------------------------------------------------------------------------- | :-: | :--------------: | :----: | :-------: | :------: |
-
-| [FloreantPOS](https://github.com/Jabro/floreantpos)                         |  ✅  | Kitchen workflow |    ✅   |     ✅     |     ✅    |
-
-| [ElitaleRestro](https://github.com/elitale/restro)                          |  ✅  |         ✅        |    ✅   |     ✅     |     ✅    |
-
-| [Openfront Restaurant](https://github.com/openshiporg/openfront-restaurant) |  ✅  |         ✅        |    ✅   |     —     |     ✅    |
-
-| [Tavo POS](https://github.com/sanjayubhrani-lab/tavo-pos)                   |  ✅  |         ✅        |    ✅   |     —     |     —    |
-
-| [Satisfecho POS](https://github.com/satisfecho/pos)                         |  ✅  |         ✅        |    ✅   |     ✅     |     ✅    |
-
-| [Restaurant POS](https://github.com/iono-such-things/restaurant-pos-system) |  ✅  |         ✅        |    ✅   |     ✅     |     —    |
-
-| [DittoPOS](https://github.com/getditto/demoapp-pos-kds)                     |  ✅  |         ✅        |    —   |     —     |     —    |
-
-| [FloCafe](https://github.com/FreeOpenSourcePOS/FloCafe)                     |  ✅  | Kitchen-oriented |    —   |     —     |     ✅    |
+| Project | POS | KDS | Tables | Inventory | Ordering |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| [FloCafe](https://github.com/FreeOpenSourcePOS/FloCafe) [![Stars](https://img.shields.io/github/stars/FreeOpenSourcePOS/FloCafe?style=social&color=white)](https://github.com/FreeOpenSourcePOS/FloCafe/stargazers) | ✅ | Kitchen-oriented | — | — | ✅ |
+| [Restaurant POS](https://github.com/ahmedali5530/restaurant-pos) [![Stars](https://img.shields.io/github/stars/ahmedali5530/restaurant-pos?style=social&color=white)](https://github.com/ahmedali5530/restaurant-pos/stargazers) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Satisfecho POS](https://github.com/satisfecho/pos) [![Stars](https://img.shields.io/github/stars/satisfecho/pos?style=social&color=white)](https://github.com/satisfecho/pos/stargazers) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Openfront Restaurant](https://github.com/openshiporg/openfront-restaurant) [![Stars](https://img.shields.io/github/stars/openshiporg/openfront-restaurant?style=social&color=white)](https://github.com/openshiporg/openfront-restaurant/stargazers) | ✅ | ✅ | ✅ | — | ✅ |
+| [FloreantPOS](https://github.com/Jabro/floreantpos) [![Stars](https://img.shields.io/github/stars/Jabro/floreantpos?style=social&color=white)](https://github.com/Jabro/floreantpos/stargazers) | ✅ | Kitchen workflow | ✅ | ✅ | ✅ |
+| [DittoPOS](https://github.com/getditto/demoapp-pos-kds) [![Stars](https://img.shields.io/github/stars/getditto/demoapp-pos-kds?style=social&color=white)](https://github.com/getditto/demoapp-pos-kds/stargazers) | ✅ | ✅ | — | — | — |
+| [Tasty Station POS](https://github.com/hey-Zayn/Tasty-Station-POS) [![Stars](https://img.shields.io/github/stars/hey-Zayn/Tasty-Station-POS?style=social&color=white)](https://github.com/hey-Zayn/Tasty-Station-POS/stargazers) | ✅ | ✅ | ✅ | — | ✅ |
+| [ElitaleRestro](https://github.com/elitale/restro) [![Stars](https://img.shields.io/github/stars/elitale/restro?style=social&color=white)](https://github.com/elitale/restro/stargazers) | ✅ | ✅ | ✅ | ✅ | ✅ |
+| [Tavo POS](https://github.com/sanjayubhrani-lab/tavo-pos) [![Stars](https://img.shields.io/github/stars/sanjayubhrani-lab/tavo-pos?style=social&color=white)](https://github.com/sanjayubhrani-lab/tavo-pos/stargazers) | ✅ | ✅ | ✅ | — | — |
+| [Restaurant POS](https://github.com/iono-such-things/restaurant-pos-system) [![Stars](https://img.shields.io/github/stars/iono-such-things/restaurant-pos-system?style=social&color=white)](https://github.com/iono-such-things/restaurant-pos-system/stargazers) | ✅ | ✅ | ✅ | ✅ | — |
 
 
 
@@ -575,23 +568,20 @@ Useful open-source projects include:
 
 
 
-| Project                                                                            | Real-Time Technology      |
-
-| ---------------------------------------------------------------------------------- | ------------------------- |
-
-| [KDS App](https://github.com/zhameersheraz/kds-app)                                | Socket.IO                 |
-
-| [kitchenOS](https://github.com/rajeshselvam02/kitchenOS)                           | WebSockets                |
-
-| [Restaurant POS System](https://github.com/iono-such-things/restaurant-pos-system) | WebSockets                |
-
-| [Satisfecho POS](https://github.com/satisfecho/pos)                                | WebSockets                |
-
-| [Tasty Station POS](https://github.com/hey-Zayn/Tasty-Station-POS)                 | Socket.IO                 |
-
-| [DittoPOS](https://github.com/getditto/demoapp-pos-kds)                            | Real-time synchronization |
-
-| [Openfront Restaurant](https://github.com/openshiporg/openfront-restaurant)        | Real-time synchronization |
+| Project | Real-Time Technology |
+| :--- | :--- |
+| [URY Mosaic](https://github.com/ury-erp/mosaic) [![Stars](https://img.shields.io/github/stars/ury-erp/mosaic?style=social&color=white)](https://github.com/ury-erp/mosaic/stargazers) | WebSockets & real-time KOT display |
+| [Restaurant POS](https://github.com/ahmedali5530/restaurant-pos) [![Stars](https://img.shields.io/github/stars/ahmedali5530/restaurant-pos?style=social&color=white)](https://github.com/ahmedali5530/restaurant-pos/stargazers) | SurrealDB Live Queries / WebSockets |
+| [Satisfecho POS](https://github.com/satisfecho/pos) [![Stars](https://img.shields.io/github/stars/satisfecho/pos?style=social&color=white)](https://github.com/satisfecho/pos/stargazers) | WebSockets |
+| [KDS App](https://github.com/zhameersheraz/kds-app) [![Stars](https://img.shields.io/github/stars/zhameersheraz/kds-app?style=social&color=white)](https://github.com/zhameersheraz/kds-app/stargazers) | Socket.IO |
+| [Openfront Restaurant](https://github.com/openshiporg/openfront-restaurant) [![Stars](https://img.shields.io/github/stars/openshiporg/openfront-restaurant?style=social&color=white)](https://github.com/openshiporg/openfront-restaurant/stargazers) | Real-time synchronization |
+| [CampusBites](https://github.com/Pxrvn07/CampusBites) [![Stars](https://img.shields.io/github/stars/Pxrvn07/CampusBites?style=social&color=white)](https://github.com/Pxrvn07/CampusBites/stargazers) | WebSockets / real-time updates |
+| [FoodStreams](https://github.com/calvincchong/FoodStreams) [![Stars](https://img.shields.io/github/stars/calvincchong/FoodStreams?style=social&color=white)](https://github.com/calvincchong/FoodStreams/stargazers) | WebSockets / real-time kitchen stream |
+| [kds-app](https://github.com/DavidVidaurre/kds-app) [![Stars](https://img.shields.io/github/stars/DavidVidaurre/kds-app?style=social&color=white)](https://github.com/DavidVidaurre/kds-app/stargazers) | Socket.IO |
+| [DittoPOS](https://github.com/getditto/demoapp-pos-kds) [![Stars](https://img.shields.io/github/stars/getditto/demoapp-pos-kds?style=social&color=white)](https://github.com/getditto/demoapp-pos-kds/stargazers) | Real-time synchronization |
+| [Tasty Station POS](https://github.com/hey-Zayn/Tasty-Station-POS) [![Stars](https://img.shields.io/github/stars/hey-Zayn/Tasty-Station-POS?style=social&color=white)](https://github.com/hey-Zayn/Tasty-Station-POS/stargazers) | Socket.IO |
+| [kitchenOS](https://github.com/rajeshselvam02/kitchenOS) [![Stars](https://img.shields.io/github/stars/rajeshselvam02/kitchenOS?style=social&color=white)](https://github.com/rajeshselvam02/kitchenOS/stargazers) | WebSockets |
+| [Restaurant POS System](https://github.com/iono-such-things/restaurant-pos-system) [![Stars](https://img.shields.io/github/stars/iono-such-things/restaurant-pos-system?style=social&color=white)](https://github.com/iono-such-things/restaurant-pos-system/stargazers) | WebSockets |
 
 
 
@@ -843,21 +833,13 @@ Useful open-source technologies include:
 
 
 
-| Project / Technology                                                       | Purpose                        |
-
-| -------------------------------------------------------------------------- | ------------------------------ |
-
-| [FloreantPOS](https://github.com/Jabro/floreantpos)                        | Restaurant printing            |
-
-| [ESC/POS](https://github.com/python-escpos/python-escpos)                  | Thermal printer protocol       |
-
-| [python-escpos](https://github.com/python-escpos/python-escpos)            | ESC/POS printing               |
-
-| [node-thermal-printer](https://github.com/Klemen1337/node-thermal-printer) | Node.js thermal printing       |
-
-| [QZ Tray](https://github.com/qzind/tray)                                   | Browser-to-printer integration |
-
-| CUPS                                                                       | Linux printing infrastructure  |
+| Project / Technology | Purpose |
+| :--- | :--- |
+| [python-escpos](https://github.com/python-escpos/python-escpos) [![Stars](https://img.shields.io/github/stars/python-escpos/python-escpos?style=social&color=white)](https://github.com/python-escpos/python-escpos/stargazers) | Python ESC/POS thermal printer library |
+| [QZ Tray](https://github.com/qzind/tray) [![Stars](https://img.shields.io/github/stars/qzind/tray?style=social&color=white)](https://github.com/qzind/tray/stargazers) | Cross-browser silent thermal & label printer integration |
+| [node-thermal-printer](https://github.com/Klemen1337/node-thermal-printer) [![Stars](https://img.shields.io/github/stars/Klemen1337/node-thermal-printer?style=social&color=white)](https://github.com/Klemen1337/node-thermal-printer/stargazers) | Node.js thermal printing via EPSON & STAR protocols |
+| [FloreantPOS](https://github.com/Jabro/floreantpos) [![Stars](https://img.shields.io/github/stars/Jabro/floreantpos?style=social&color=white)](https://github.com/Jabro/floreantpos/stargazers) | Native JavaPOS kitchen receipt routing & printing |
+| CUPS | Linux/Unix standard printing infrastructure |
 
 
 
@@ -945,19 +927,15 @@ Useful open-source platforms include:
 
 
 
-| Project                                                                     | Self Ordering | KDS |
-
-| --------------------------------------------------------------------------- | :-----------: | :-: |
-
-| [ElitaleRestro](https://github.com/elitale/restro)                          |      ✅ QR     |  ✅  |
-
-| [Openfront Restaurant](https://github.com/openshiporg/openfront-restaurant) |       ✅       |  ✅  |
-
-| [Satisfecho POS](https://github.com/satisfecho/pos)                         |      ✅ QR     |  ✅  |
-
-| [Baresto Manager](https://github.com/atzounis/baresto_manager)              |      ✅ QR     |  ✅  |
-
-| [Restaurant POS](https://github.com/iono-such-things/restaurant-pos-system) |       —       |  ✅  |
+| Project | Self Ordering | KDS |
+| :--- | :---: | :---: |
+| [Restaurant POS](https://github.com/ahmedali5530/restaurant-pos) [![Stars](https://img.shields.io/github/stars/ahmedali5530/restaurant-pos?style=social&color=white)](https://github.com/ahmedali5530/restaurant-pos/stargazers) | ✅ Online / QR | ✅ |
+| [Satisfecho POS](https://github.com/satisfecho/pos) [![Stars](https://img.shields.io/github/stars/satisfecho/pos?style=social&color=white)](https://github.com/satisfecho/pos/stargazers) | ✅ QR Ordering | ✅ |
+| [Openfront Restaurant](https://github.com/openshiporg/openfront-restaurant) [![Stars](https://img.shields.io/github/stars/openshiporg/openfront-restaurant?style=social&color=white)](https://github.com/openshiporg/openfront-restaurant/stargazers) | ✅ Customer Portal | ✅ |
+| [CampusBites](https://github.com/Pxrvn07/CampusBites) [![Stars](https://img.shields.io/github/stars/Pxrvn07/CampusBites?style=social&color=white)](https://github.com/Pxrvn07/CampusBites/stargazers) | ✅ Student QR / Mobile Ordering | ✅ |
+| [ElitaleRestro](https://github.com/elitale/restro) [![Stars](https://img.shields.io/github/stars/elitale/restro?style=social&color=white)](https://github.com/elitale/restro/stargazers) | ✅ QR Menu & Ordering | ✅ |
+| [Baresto Manager](https://github.com/atzounis/baresto_manager) [![Stars](https://img.shields.io/github/stars/atzounis/baresto_manager?style=social&color=white)](https://github.com/atzounis/baresto_manager/stargazers) | ✅ QR Menus | ✅ |
+| [Restaurant POS System](https://github.com/iono-such-things/restaurant-pos-system) [![Stars](https://img.shields.io/github/stars/iono-such-things/restaurant-pos-system?style=social&color=white)](https://github.com/iono-such-things/restaurant-pos-system/stargazers) | — | ✅ |
 
 
 
@@ -1141,41 +1119,24 @@ Fresh KDS demonstrates the importance of this integration layer by connecting to
 
 | ----------------------------- | ---------------------------------------------------------- |
 
-| **Toast KDS**                 | Openfront Restaurant + Satisfecho POS + OpenKDS            |
-
-| **Square KDS**                | OpenKDS + Restaurant POS + WebSockets                      |
-
-| **Lightspeed KDS**            | OpenKDS + POS + station routing                            |
-
-| **TouchBistro KDS**           | ElitaleRestro + OpenKDS                                    |
-
-| **Oracle MICROS KDS**         | Finer-grained POS + OpenKDS + real-time event architecture |
-
-| **Fresh KDS**                 | OpenKDS + POS integrations + WebSockets                    |
-
-| **Syrve KDS**                 | Openfront Restaurant + restaurant POS + inventory          |
-
-| **Revel KDS**                 | Restaurant POS + OpenKDS                                   |
-
-| **SpotOn KDS**                | Satisfecho POS + OpenKDS                                   |
-
-| **CAKE KDS**                  | Openfront Restaurant + POS + KDS                           |
-
-| **Clover KDS**                | OpenKDS + restaurant POS                                   |
-
-| **Epson TrueOrder**           | Browser KDS + ESC/POS                                      |
-
-| **Enterprise KDS**            | OpenKDS + WebSockets + PostgreSQL + Redis                  |
-
-| **Standalone KDS**            | OpenKDS                                                    |
-
-| **Toast-style Restaurant OS** | Openfront Restaurant / ElitaleRestro                       |
-
-| **Small Restaurant KDS**      | KDS App / OpenKDS                                          |
-
-| **Offline KDS**               | Local POS + SQLite + WebSocket / LAN                       |
-
-| **Multi-station KDS**         | OpenKDS + routing engine + event bus                       |
+| **Toast KDS** | FloCafe + Satisfecho POS + OpenKDS / URY Mosaic |
+| **Square KDS** | OpenKDS + Restaurant POS (ahmedali5530) + WebSockets |
+| **Lightspeed KDS** | FloCafe / OpenKDS + POS + station routing |
+| **TouchBistro KDS** | ElitaleRestro + OpenKDS |
+| **Oracle MICROS KDS** | URY Mosaic + Openfront Restaurant + real-time event architecture |
+| **Fresh KDS** | URY Mosaic + OpenKDS + POS integrations + WebSockets |
+| **Syrve KDS** | Openfront Restaurant + restaurant POS + inventory |
+| **Revel KDS** | Restaurant POS + OpenKDS / FloCafe |
+| **SpotOn KDS** | Satisfecho POS + OpenKDS |
+| **CAKE KDS** | Openfront Restaurant + POS + KDS |
+| **Clover KDS** | OpenKDS + restaurant POS |
+| **Epson TrueOrder** | Browser KDS + ESC/POS (python-escpos) |
+| **Enterprise KDS** | URY Mosaic + WebSockets + PostgreSQL + Redis |
+| **Standalone KDS** | URY Mosaic / OpenKDS |
+| **Toast-style Restaurant OS** | FloCafe / Openfront Restaurant / ElitaleRestro |
+| **Small Restaurant KDS** | KDS App / OpenKDS / CampusBites |
+| **Offline KDS** | FloCafe (Offline-first) / Local POS + SQLite |
+| **Multi-station KDS** | URY Mosaic + OpenKDS + routing engine + event bus |
 
 
 
