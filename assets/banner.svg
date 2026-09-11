@@ -1,0 +1,232 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#1f1d2b" />
+    </linearGradient>
+    <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="50%" stop-color="#fb923c" />
+      <stop offset="100%" stop-color="#facc15" />
+    </linearGradient>
+    <linearGradient id="glow-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ea580c" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="stream-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0" />
+      <stop offset="50%" stop-color="#fb923c" stop-opacity="1" />
+      <stop offset="100%" stop-color="#facc15" stop-opacity="0" />
+    </linearGradient>
+    
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="soft-glow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .pulsing-glow {
+        animation: pulseGlow 4s ease-in-out infinite alternate;
+      }
+      .flowing-beam {
+        stroke-dasharray: 120 400;
+        animation: flowBeam 3.5s linear infinite;
+      }
+      .flowing-beam-rev {
+        stroke-dasharray: 80 300;
+        animation: flowBeamRev 4.5s linear infinite;
+      }
+      .ranking-node-1 { animation: floatNode 3s ease-in-out infinite alternate; }
+      .ranking-node-2 { animation: floatNode 3.5s ease-in-out infinite 0.5s alternate; }
+      .ranking-node-3 { animation: floatNode 4s ease-in-out infinite 1s alternate; }
+      .accent-rotate {
+        transform-origin: 1040px 190px;
+        animation: spinSlow 24s linear infinite;
+      }
+      .badge-glow {
+        animation: badgePulse 3s ease-in-out infinite alternate;
+      }
+      .scanner-line {
+        animation: scanMove 4s ease-in-out infinite alternate;
+      }
+
+      @keyframes pulseGlow {
+        0% { opacity: 0.35; transform: scale(0.98); }
+        100% { opacity: 0.8; transform: scale(1.02); }
+      }
+      @keyframes flowBeam {
+        0% { stroke-dashoffset: 520; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes flowBeamRev {
+        0% { stroke-dashoffset: 0; }
+        100% { stroke-dashoffset: 380; }
+      }
+      @keyframes floatNode {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-7px); }
+      }
+      @keyframes spinSlow {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @keyframes badgePulse {
+        0% { filter: drop-shadow(0 0 4px rgba(249,115,22,0.3)); }
+        100% { filter: drop-shadow(0 0 12px rgba(245,158,11,0.7)); }
+      }
+      @keyframes scanMove {
+        0% { transform: translateY(0px); opacity: 0.2; }
+        50% { opacity: 0.8; }
+        100% { transform: translateY(180px); opacity: 0.2; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="420" rx="16" fill="url(#bg-grad)" />
+  <rect width="1200" height="420" rx="16" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5" />
+
+  <!-- Subtle Matrix / Grid Pattern -->
+  <g opacity="0.06" stroke="#f97316" stroke-width="1">
+    <line x1="100" y1="0" x2="100" y2="420" />
+    <line x1="250" y1="0" x2="250" y2="420" />
+    <line x1="400" y1="0" x2="400" y2="420" />
+    <line x1="550" y1="0" x2="550" y2="420" />
+    <line x1="700" y1="0" x2="700" y2="420" />
+    <line x1="850" y1="0" x2="850" y2="420" />
+    <line x1="1000" y1="0" x2="1000" y2="420" />
+    <line x1="1150" y1="0" x2="1150" y2="420" />
+    <line x1="0" y1="70" x2="1200" y2="70" />
+    <line x1="0" y1="140" x2="1200" y2="140" />
+    <line x1="0" y1="210" x2="1200" y2="210" />
+    <line x1="0" y1="280" x2="1200" y2="280" />
+    <line x1="0" y1="350" x2="1200" y2="350" />
+  </g>
+
+  <!-- Glowing background ambient blobs -->
+  <circle cx="160" cy="100" r="140" fill="#f97316" opacity="0.12" filter="url(#glow)" class="pulsing-glow" />
+  <circle cx="980" cy="200" r="180" fill="#f59e0b" opacity="0.12" filter="url(#glow)" class="pulsing-glow" />
+  <circle cx="620" cy="360" r="130" fill="#ef4444" opacity="0.08" filter="url(#glow)" />
+
+  <!-- Flowing animated beam connecting kitchen stations -->
+  <path d="M 680 140 Q 820 90, 940 160 T 1120 220" fill="none" stroke="url(#stream-grad)" stroke-width="2.5" class="flowing-beam" filter="url(#soft-glow)" />
+  <path d="M 720 280 Q 860 330, 970 240 T 1140 180" fill="none" stroke="url(#primary-grad)" stroke-width="2" class="flowing-beam-rev" opacity="0.7" />
+
+  <!-- Animated Rotating Tech Ring around Diagram -->
+  <g class="accent-rotate" opacity="0.3">
+    <circle cx="1040" cy="190" r="95" fill="none" stroke="#f97316" stroke-width="1.5" stroke-dasharray="10 20 45 15" />
+    <circle cx="1040" cy="190" r="120" fill="none" stroke="#facc15" stroke-width="1" stroke-dasharray="6 35 18 20" />
+  </g>
+
+  <!-- Left Side: Content Branding -->
+  <g transform="translate(65, 0)">
+    <!-- Category Pill Badge -->
+    <g transform="translate(0, 56)" class="badge-glow">
+      <rect width="280" height="30" rx="15" fill="rgba(249, 115, 22, 0.12)" stroke="rgba(249, 115, 22, 0.4)" stroke-width="1.2" />
+      <circle cx="15" cy="15" r="4.5" fill="#f97316">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="28" y="19.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#f97316" letter-spacing="0.8">🍳 RESTAURANT TECH &amp; DIGITAL KITCHEN</text>
+    </g>
+
+    <!-- Main Title -->
+    <g transform="translate(0, 138)">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', sans-serif" font-size="50" font-weight="900" fill="#ffffff" letter-spacing="-1.2">
+        Awesome <tspan fill="url(#primary-grad)">Kitchen Display System</tspan>
+      </text>
+    </g>
+
+    <!-- Subtitle -->
+    <g transform="translate(0, 182)">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="400" fill="#94a3b8" letter-spacing="-0.2">
+        Curated guide to Commercial KDS SaaS Platforms, Open-Source Kitchen Systems,
+      </text>
+      <text y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="400" fill="#94a3b8" letter-spacing="-0.2">
+        Real-Time Order Routing, Station Workflows, POS Integrations &amp; Analytics.
+      </text>
+    </g>
+
+    <!-- Feature Highlights / Badges -->
+    <g transform="translate(0, 268)">
+      <!-- Badge 1: Commercial SaaS -->
+      <g transform="translate(0, 0)">
+        <rect width="140" height="34" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+        <circle cx="16" cy="17" r="4" fill="#f97316" />
+        <text x="28" y="21.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">Commercial SaaS</text>
+      </g>
+      <!-- Badge 2: Open-Source -->
+      <g transform="translate(152, 0)">
+        <rect width="135" height="34" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+        <circle cx="16" cy="17" r="4" fill="#fb923c" />
+        <text x="28" y="21.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">Open-Source</text>
+      </g>
+      <!-- Badge 3: WebSockets -->
+      <g transform="translate(299, 0)">
+        <rect width="125" height="34" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+        <circle cx="16" cy="17" r="4" fill="#facc15" />
+        <text x="28" y="21.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">WebSockets</text>
+      </g>
+      <!-- Badge 4: Pricing & Limits -->
+      <g transform="translate(436, 0)">
+        <rect width="158" height="34" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+        <circle cx="16" cy="17" r="4" fill="#10b981" />
+        <text x="28" y="21.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0">Pricing &amp; Limits</text>
+      </g>
+    </g>
+
+    <!-- Metrics Line -->
+    <g transform="translate(0, 342)" opacity="0.8">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="12" fill="#64748b">
+        ⚡ 18+ SaaS Platforms  •  🍳 15+ Open-Source Stacks  •  ⏱️ Multi-Station Routing  •  📊 Evaluated 2026
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Side: Kitchen Display / Ticket Architecture Visual -->
+  <g transform="translate(770, 70)">
+    <!-- Background Card -->
+    <rect width="360" height="280" rx="16" fill="rgba(17, 24, 39, 0.75)" stroke="rgba(249, 115, 22, 0.2)" stroke-width="1.5" filter="url(#glow)" />
+    
+    <!-- Visual Scanner Line inside diagram -->
+    <line x1="20" y1="50" x2="340" y2="50" stroke="#f97316" stroke-width="1.5" stroke-opacity="0.6" class="scanner-line" />
+
+    <!-- Station 1: Order Ingestion & POS -->
+    <g transform="translate(30, 30)" class="ranking-node-1">
+      <rect width="300" height="46" rx="8" fill="rgba(31, 41, 55, 0.85)" stroke="#4b5563" stroke-width="1" />
+      <text x="16" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#9ca3af">ORDER INGESTION &amp; POS</text>
+      <text x="16" y="37" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#6b7280">Online, Kiosk, Third-Party Delivery &amp; POS</text>
+      <circle cx="280" cy="23" r="7" fill="rgba(249, 115, 22, 0.2)" stroke="#f97316" stroke-width="1.5" />
+    </g>
+
+    <!-- Connector Arrow -->
+    <path d="M 180 82 L 180 110" stroke="#fb923c" stroke-width="2" stroke-dasharray="3 3" />
+    <polygon points="180,114 176,106 184,106" fill="#fb923c" />
+
+    <!-- Station 2: Real-Time KDS Station Routing -->
+    <g transform="translate(45, 116)" class="ranking-node-2">
+      <rect width="270" height="54" rx="10" fill="rgba(249, 115, 22, 0.15)" stroke="#f97316" stroke-width="1.8" filter="url(#soft-glow)" />
+      <text x="16" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#fed7aa">STATION ROUTING (KDS)</text>
+      <text x="16" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" fill="#fdba74">Grill • Fryer • Prep • Salad (WebSockets)</text>
+      <circle cx="250" cy="27" r="8" fill="#f97316">
+        <animate attributeName="r" values="7;9;7" dur="2s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <!-- Connector Arrow -->
+    <path d="M 180 176 L 180 204" stroke="#facc15" stroke-width="2" stroke-dasharray="3 3" />
+    <polygon points="180,208 176,200 184,200" fill="#facc15" />
+
+    <!-- Station 3: Expediter & Fulfillment -->
+    <g transform="translate(60, 210)" class="ranking-node-3">
+      <rect width="240" height="46" rx="8" fill="rgba(250, 204, 21, 0.12)" stroke="#facc15" stroke-width="1.2" />
+      <text x="16" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#fef08a">EXPEDITER &amp; BUMP</text>
+      <text x="16" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#fde047">Quality Check, Packing &amp; Dispatch</text>
+      <circle cx="220" cy="23" r="6" fill="#10b981" />
+    </g>
+  </g>
+</svg>
