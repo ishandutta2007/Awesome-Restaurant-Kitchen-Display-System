@@ -132,11 +132,9 @@ This repository focuses primarily on **open-source and self-hostable alternative
 
 # ☁️ SaaS/Hosted Platforms
 
-
-
 Commercial KDS platforms generally integrate directly with a restaurant POS and provide a managed combination of software, hardware, routing, reporting and support.
 
-
+> 📈 **Market Overview:** The global Kitchen Display System (KDS) and digital kitchen management software market is estimated at **$2.5B–$3.2B** (projected to reach over **$6.5B by 2032** at an ~11-13% CAGR); the sector is **moderately fragmented** rather than a winner-take-all monopoly, featuring tier-1 enterprise incumbents (Oracle MICROS, NCR Voyix, Fiserv/Clover), dominant SMB restaurant operating systems (Toast, Square, Lightspeed), and specialized hardware-agnostic SaaS aggregators (Fresh KDS, Deliverect, Otter).
 
 | Platform | Company | Market Cap / Valuation (or Revenue) | Primary Focus | Key Capabilities | Pricing | Free Tier Limits |
 | --- | --- | --- | --- | --- | --- | --- |
